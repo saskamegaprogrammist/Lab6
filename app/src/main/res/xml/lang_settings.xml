@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/languages_values"
+        android:entryValues="@array/languages_keys"
+        android:key="@string/language_key"
+        android:summary="@string/language_summary"
+        android:title="@string/language_title">
+    </ListPreference>
+    <EditTextPreference
+        android:key="@string/columns_key"
+        android:summary="@string/columns_summary"
+        android:title="@string/columns_title">
+    </EditTextPreference>
+</PreferenceScreen>

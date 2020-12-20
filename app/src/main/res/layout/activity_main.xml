@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/img_padding"
+            android:layout_below="@+id/scroll_view"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/poster" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/title_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/welcome_text"
+            tools:text="Long Long Long Long text"
+            />
+
+        <ScrollView
+            android:layout_below="@+id/title_text"
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingStart="@dimen/img_padding"
+            android:paddingEnd="@dimen/img_padding">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/columns_layout"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

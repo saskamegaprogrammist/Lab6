@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/project_navigation"
+    app:startDestination="@+id/navigation_start">
+
+    <fragment
+        android:id="@+id/navigation_start"
+        android:name="com.spiridonova.kotlin106.AllSettingsFragment"
+        android:label="Start fragment"
+        tools:layout="@layout/all_settings_fragment" >
+        <action
+            android:id="@+id/to_lang_settings"
+            app:popUpTo="@+id/navigation_lang">
+        </action>
+
+        <action
+            android:id="@+id/to_theme_settings"
+            app:popUpTo="@+id/navigation_theme">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_lang"
+        android:name="com.spiridonova.kotlin106.LanguageSettingsFragment"
+        android:label="Open lang settings"
+        tools:layout="@layout/language_settings" >
+        <action
+            android:id="@+id/to_start"
+            app:popUpTo="@+id/navigation_start">
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_theme"
+        android:name="com.spiridonova.kotlin106.ThemeSettingsFragment"
+        android:label="Open theme settings"
+        tools:layout="@layout/theme_settings" >
+        <action
+            android:id="@+id/to_start"
+            app:popUpTo="@+id/navigation_start">
+        </action>
+
+    </fragment>
+
+</navigation>

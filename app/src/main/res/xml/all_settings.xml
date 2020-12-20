@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="@string/lang_category"
+        app:title="@string/langs_category_title">
+        <Preference
+            app:title="@string/select_lang"
+            app:fragment="com.spiridonova.kotlin106.LanguageSettingsFragment"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="@string/themes_category"
+        app:title="@string/themes_category_title">
+        <Preference
+            app:title="@string/select_theme"
+        app:fragment="com.spiridonova.kotlin106.ThemeSettingsFragment"
+        />
+    </PreferenceCategory>
+
+</PreferenceScreen>

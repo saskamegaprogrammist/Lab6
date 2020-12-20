@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kotlin106</string>
+    <string name="settings_button">settings</string>
+    <string name="welcome_text">Welcome to 6 lab!</string>
+    <string name="select_lang">Select language</string>
+    <string name="select_theme">Select theme</string>
+    <string name="theme_key">dark_mode</string>
+    <string name="theme_summary">"The dark mode is: "</string>
+    <string name="theme_title">Enable dark mode</string>
+    <string name="language_summary">"Current language is: "</string>
+    <string name="language_title">Select language</string>
+    <string name="language_key">locale</string>
+    <string name="language_ru">russian</string>
+    <string name="language_en">english</string>
+    <string name="language_key_ru">russian</string>
+    <string name="language_key_en">english</string>
+    <string name="lang_category">languages_category</string>
+    <string name="themes_category">themes_category</string>
+    <string name="themes_category_title">Theme</string>
+    <string name="langs_category_title">Languages</string>
+    <string name="columns_title">Select number of columns</string>
+    <string name="columns_summary">Columns number:</string>
+    <string name="columns_key">columns_key</string>
+    <string name="pic_title">Enable pic</string>
+    <string name="pic_summary">Pic enabled: </string>
+    <string name="pic_key">pic_key</string>
+    <string name="random_string">random string</string>
+
+</resources>
